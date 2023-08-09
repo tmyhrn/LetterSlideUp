@@ -2,7 +2,7 @@ const heading = document.querySelector('#heading');
 
 const keyframe = {
   opacity: [0, 1],
-  translate: ['0 50px', 0],
+  rotate: ['x 360deg', 0],
 };
 
 const options = {
