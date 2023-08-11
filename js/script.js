@@ -1,13 +1,13 @@
 const heading = document.querySelector('#heading');
 
 const keyframe = {
-  color: ['#f66', '#fc2', '#0c6', '#0bd']
+  color: ['transparent', '#fff'],
+  backgroundPosition: ['100% 0', '0 0'],
 };
 
 const options = {
-  duration: 8000,
-  direction: 'alternate',
-  iterations: Infinity,
+  duration: 1000,
+  easing: 'ease',
 }
 
 heading.animate(keyframe, options);
